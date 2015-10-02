@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UUTowerDefence.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D2AF4D98-7968-4E60-A67D-0683AC1AA83A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UUTowerDefence.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UUTowerDefenceEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{893C1BBA-2111-49C7-BBF7-FC83581BBBBB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UUTowerDefence">
+			<UniqueIdentifier>{01BE7685-B393-453D-9125-280636A21B11}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UUTowerDefence\UUTowerDefence.Build.cs">
+			<Filter>Source\UUTowerDefence</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UUTowerDefence\UUTowerDefence.cpp">
+			<Filter>Source\UUTowerDefence</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UUTowerDefence\UUTowerDefence.h">
+			<Filter>Source\UUTowerDefence</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UUTowerDefence\UUTowerDefenceGameMode.cpp">
+			<Filter>Source\UUTowerDefence</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UUTowerDefence\UUTowerDefenceGameMode.h">
+			<Filter>Source\UUTowerDefence</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
